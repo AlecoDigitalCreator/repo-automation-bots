@@ -1,7 +1,7 @@
-# Repo Automation Bots
+ # Repo Automation Bots
 
 A collection of bots, based on [probot](https://github.com/probot/probot), for
-performing common maintenance tasks across the open-source repos managed
+Performing common maintenance tasks across the open-source repos managed
 by Google on GitHub.
 
 ## Implemented Bots
@@ -9,7 +9,7 @@ by Google on GitHub.
 | Name | Description | Install |
 | ---- | ----------- | ------- |
 | [auto-approve] | Automatically approves and merges PRs matching user-specified configs | [install][auto-approve-app] |
-| [auto-label] | Automatically labels issues and PRs with product, language, or directory based labels | [install][auto-label-app] |
+| [auto-label] | Automatically labels issues and PRs with product, language, or directory-based labels | [install][auto-label-app] |
 | [blunderbuss] | Assigns issues and PRs randomly to a specific list of users | [install][blunderbuss-app] |
 | [cherry-pick-bot] | Cherry-pick merged PRs between branches | [install][cherry-pick-bot-app] |
 | [conventional-commit-lint] | PR checker that ensures that the commit messages follow conventionalcommits.org style | [install][conventional-commit-lint-app] |
@@ -19,7 +19,7 @@ by Google on GitHub.
 | [generated-files-bot] | PR checker to notify if you are modifying generated files | [install][generated-files-bot-app]
 | [label-sync] | Synchronize labels across organizations | [install][label-sync-app] |
 | [license-header-lint] | PR checker that ensures that source files contain valid license headers | [install][license-header-lint-app] |
-| [merge-on-green] | Merge a pull-request when all required checks have passed | [install][merge-on-green-app] |
+| [merge-on-green] | Merge a pull request when all required checks have passed | [install][merge-on-green-app] |
 | [policy] | Check repo configuration against known rules | [install][policy-app] |
 | [release-please] | Proposes releases based on semantic version commits | [install][release-please-app] |
 | [release-trigger] | Trigger releases jobs | [install][release-trigger-app] |
